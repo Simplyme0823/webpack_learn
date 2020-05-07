@@ -10,14 +10,14 @@ const glob = require('glob');
 const setMPA = () => {
   const entry = {};
   const htmlWebpackPlugins = [];
-  const entryFiles = glob.sync(path.join(__dirname, './src/*/index.js'));
-  Object.keys(entryFiles).forEach((index) => {
+  const entryFiles = glob.sync(path.join(projectRoot, './src/*/index.js'));
+  Object.keys(entryFiles).map((index) => {
     const entryFile = entryFiles[index];
     const match = entryFile.match(/src\/(.*)\/index\.js/);
     const pageName = match && match[1];
     entry[pageName] = entryFile;
-    htmlWebpackPlugins.push(new HtmlWebpackPlugin({
-      template: path.join(__dirname, `src/${pageName}/index.html`),
+    return htmlWebpackPlugins.push(new HtmlWebpackPlugin({
+      template: path.join(projectRoot, `src/${pageName}/index.html`),
       filename: `${pageName}.html`,
       chunks: ['vendors', pageName], // 注入指定的chunck，
       inject: true,
@@ -29,8 +29,10 @@ const setMPA = () => {
         minifyJS: true,
         removeComments: true,
       },
-    }));
+    })
+    );
   });
+
   return {
     entry,
     htmlWebpackPlugins,
@@ -40,12 +42,12 @@ const setMPA = () => {
 const { entry, htmlWebpackPlugins } = setMPA();
 
 module.exports = {
+  entry: entry,
+  output: {
+    path: path.join(projectRoot, 'dist'),
+    filename: '[name]_[chunkhash:8].js',
+  },
   module: {
-    entry,
-    output: {
-      path: path.join(projectRoot, 'dist'),
-      filename: '[name]_[chunkhash:8].js',
-    },
     rules: [
       {
         test: /\.js$/,

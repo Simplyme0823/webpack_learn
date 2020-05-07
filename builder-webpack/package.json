@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+ 
     "lint": "eslint --ext .js",
     "fix": "eslint --fix"
   },
@@ -44,9 +44,13 @@
     "webpack-cli": "^3.3.11"
   },
   "devDependencies": {
+    "assert": "^2.0.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
+    "glob-all": "^3.2.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^7.1.2",
     "rimraf": "^3.0.2"
   },
   "keywords": [],
