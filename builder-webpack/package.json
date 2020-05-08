@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
- 
     "lint": "eslint --ext .js",
     "fix": "eslint --fix"
   },

@@ -1,0 +1,757 @@
+ DONE  Compiled successfully in 4735ms19:41:59
+
+{
+  "errors": [],
+  "warnings": [],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\index\\index.js",
+      "name": "./src/index/index.js",
+      "index": 0,
+      "index2": 2,
+      "size": 83,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 1,
+      "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\index\\common.js",
+      "name": "./src/index/common.js",
+      "index": 1,
+      "index2": 0,
+      "size": 54,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\index\\index.js",
+      "issuerId": 0,
+      "issuerName": "./src/index/index.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\index\\index.js",
+          "name": "./src/index/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 2,
+      "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\index\\test.js",
+      "name": "./src/index/test.js",
+      "index": 2,
+      "index2": 1,
+      "size": 43,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\index\\index.js",
+      "issuerId": 0,
+      "issuerName": "./src/index/index.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\index\\index.js",
+          "name": "./src/index/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 3,
+      "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\index.js",
+      "name": "./src/search/index.js",
+      "index": 3,
+      "index2": 20,
+      "size": 114,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 4,
+      "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\helloWorld.js",
+      "name": "./src/search/helloWorld.js",
+      "index": 4,
+      "index2": 3,
+      "size": 59,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\index.js",
+      "issuerId": 3,
+      "issuerName": "./src/search/index.js",
+      "issuerPath": [
+        {
+          "id": 3,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 5,
+      "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\search.js",
+      "name": "./src/search/search.js",
+      "index": 5,
+      "index2": 19,
+      "size": 4085,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\index.js",
+      "issuerId": 3,
+      "issuerName": "./src/search/index.js",
+      "issuerPath": [
+        {
+          "id": 3,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 6,
+      "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react\\index.js",
+      "name": "./node_modules/react/index.js",
+      "index": 6,
+      "index2": 8,
+      "size": 189,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\search.js",
+      "issuerId": 5,
+      "issuerName": "./src/search/search.js",
+      "issuerPath": [
+        {
+          "id": 3,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 5,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\search.js",
+          "name": "./src/search/search.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 7,
+      "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react\\cjs\\react.development.js",
+      "name": "./node_modules/react/cjs/react.development.js",
+      "index": 7,
+      "index2": 7,
+      "size": 66869,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react\\index.js",
+      "issuerId": 6,
+      "issuerName": "./node_modules/react/index.js",
+      "issuerPath": [
+        {
+          "id": 3,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 5,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\search.js",
+          "name": "./src/search/search.js"
+        },
+        {
+          "id": 6,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react\\index.js",
+          "name": "./node_modules/react/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 8,
+      "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\object-assign\\index.js",
+      "name": "./node_modules/object-assign/index.js",
+      "index": 8,
+      "index2": 4,
+      "size": 2226,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react\\cjs\\react.development.js",
+      "issuerId": 7,
+      "issuerName": "./node_modules/react/cjs/react.development.js",
+      "issuerPath": [
+        {
+          "id": 3,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 5,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\search.js",
+          "name": "./src/search/search.js"
+        },
+        {
+          "id": 6,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react\\index.js",
+          "name": "./node_modules/react/index.js"
+        },
+        {
+          "id": 7,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react\\cjs\\react.development.js",
+          "name": "./node_modules/react/cjs/react.development.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 9,
+      "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\prop-types\\checkPropTypes.js",
+      "name": "./node_modules/prop-types/checkPropTypes.js",
+      "index": 9,
+      "index2": 6,
+      "size": 3632,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react\\cjs\\react.development.js",
+      "issuerId": 7,
+      "issuerName": "./node_modules/react/cjs/react.development.js",
+      "issuerPath": [
+        {
+          "id": 3,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 5,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\search.js",
+          "name": "./src/search/search.js"
+        },
+        {
+          "id": 6,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react\\index.js",
+          "name": "./node_modules/react/index.js"
+        },
+        {
+          "id": 7,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react\\cjs\\react.development.js",
+          "name": "./node_modules/react/cjs/react.development.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 10,
+      "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\prop-types\\lib\\ReactPropTypesSecret.js",
+      "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "index": 10,
+      "index2": 5,
+      "size": 311,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\prop-types\\checkPropTypes.js",
+      "issuerId": 9,
+      "issuerName": "./node_modules/prop-types/checkPropTypes.js",
+      "issuerPath": [
+        {
+          "id": 3,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 5,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\search.js",
+          "name": "./src/search/search.js"
+        },
+        {
+          "id": 6,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react\\index.js",
+          "name": "./node_modules/react/index.js"
+        },
+        {
+          "id": 7,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react\\cjs\\react.development.js",
+          "name": "./node_modules/react/cjs/react.development.js"
+        },
+        {
+          "id": 9,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\prop-types\\checkPropTypes.js",
+          "name": "./node_modules/prop-types/checkPropTypes.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 11,
+      "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react-dom\\index.js",
+      "name": "./node_modules/react-dom/index.js",
+      "index": 11,
+      "index2": 14,
+      "size": 1352,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\search.js",
+      "issuerId": 5,
+      "issuerName": "./src/search/search.js",
+      "issuerPath": [
+        {
+          "id": 3,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 5,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\search.js",
+          "name": "./src/search/search.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 12,
+      "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+      "name": "./node_modules/react-dom/cjs/react-dom.development.js",
+      "index": 12,
+      "index2": 13,
+      "size": 940721,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react-dom\\index.js",
+      "issuerId": 11,
+      "issuerName": "./node_modules/react-dom/index.js",
+      "issuerPath": [
+        {
+          "id": 3,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 5,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\search.js",
+          "name": "./src/search/search.js"
+        },
+        {
+          "id": 11,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 13,
+      "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\scheduler\\index.js",
+      "name": "./node_modules/scheduler/index.js",
+      "index": 13,
+      "index2": 10,
+      "size": 197,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+      "issuerId": 12,
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.development.js",
+      "issuerPath": [
+        {
+          "id": 3,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 5,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\search.js",
+          "name": "./src/search/search.js"
+        },
+        {
+          "id": 11,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js"
+        },
+        {
+          "id": 12,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.development.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 14,
+      "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\scheduler\\cjs\\scheduler.development.js",
+      "name": "./node_modules/scheduler/cjs/scheduler.development.js",
+      "index": 14,
+      "index2": 9,
+      "size": 26532,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\scheduler\\index.js",
+      "issuerId": 13,
+      "issuerName": "./node_modules/scheduler/index.js",
+      "issuerPath": [
+        {
+          "id": 3,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 5,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\search.js",
+          "name": "./src/search/search.js"
+        },
+        {
+          "id": 11,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js"
+        },
+        {
+          "id": 12,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.development.js"
+        },
+        {
+          "id": 13,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\scheduler\\index.js",
+          "name": "./node_modules/scheduler/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 15,
+      "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\scheduler\\tracing.js",
+      "name": "./node_modules/scheduler/tracing.js",
+      "index": 15,
+      "index2": 12,
+      "size": 213,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+      "issuerId": 12,
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.development.js",
+      "issuerPath": [
+        {
+          "id": 3,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 5,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\search.js",
+          "name": "./src/search/search.js"
+        },
+        {
+          "id": 11,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js"
+        },
+        {
+          "id": 12,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.development.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 16,
+      "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\scheduler\\cjs\\scheduler-tracing.development.js",
+      "name": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
+      "index": 16,
+      "index2": 11,
+      "size": 10145,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\scheduler\\tracing.js",
+      "issuerId": 15,
+      "issuerName": "./node_modules/scheduler/tracing.js",
+      "issuerPath": [
+        {
+          "id": 3,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 5,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\search.js",
+          "name": "./src/search/search.js"
+        },
+        {
+          "id": 11,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js"
+        },
+        {
+          "id": 12,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.development.js"
+        },
+        {
+          "id": 15,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\node_modules\\scheduler\\tracing.js",
+          "name": "./node_modules/scheduler/tracing.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 17,
+      "identifier": "G:\\webpack\\webpack_learn\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\webpack\\webpack_learn\\node_modules\\css-loader\\dist\\cjs.js!G:\\webpack\\webpack_learn\\node_modules\\less-loader\\dist\\cjs.js!G:\\webpack\\webpack_learn\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!G:\\webpack\\webpack_learn\\node_modules\\px2rem-loader\\index.js??ref--6-4!G:\\webpack\\webpack_learn\\src\\search\\search.less",
+      "name": "./src/search/search.less",
+      "index": 17,
+      "index2": 16,
+      "size": 39,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\search.js",
+      "issuerId": 5,
+      "issuerName": "./src/search/search.js",
+      "issuerPath": [
+        {
+          "id": 3,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 5,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\search.js",
+          "name": "./src/search/search.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 18,
+      "identifier": "G:\\webpack\\webpack_learn\\node_modules\\url-loader\\dist\\cjs.js??ref--7-0!G:\\webpack\\webpack_learn\\src\\search\\images\\test.png",
+      "name": "./src/search/images/test.png",
+      "index": 19,
+      "index2": 17,
+      "size": 64,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\search.js",
+      "issuerId": 5,
+      "issuerName": "./src/search/search.js",
+      "issuerPath": [
+        {
+          "id": 3,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 5,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\search.js",
+          "name": "./src/search/search.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 19,
+      "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\common\\index.js",
+      "name": "./common/index.js",
+      "index": 20,
+      "index2": 18,
+      "size": 54,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\index.js",
+      "issuerId": 3,
+      "issuerName": "./src/search/index.js",
+      "issuerPath": [
+        {
+          "id": 3,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 20,
+      "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\test.js",
+      "name": "./src/search/test.js",
+      "index": 21,
+      "index2": 21,
+      "size": 143,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        3
+      ],
+      "issuer": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\search.js",
+      "issuerId": 5,
+      "issuerName": "./src/search/search.js",
+      "issuerPath": [
+        {
+          "id": 3,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 5,
+          "identifier": "G:\\webpack\\webpack_learn\\node_modules\\babel-loader\\lib\\index.js??ref--4!G:\\webpack\\webpack_learn\\src\\search\\search.js",
+          "name": "./src/search/search.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    }
+  ],
+  "filteredModules": 1,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  }
+}

@@ -9,6 +9,11 @@ const htmlWebpackExternalsPlugin = require('html-webpack-externals-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin')
 const webpack = require('webpack')
+const SpeedMeasureWebpackPlugin = require('speed-measure-webpack-plugin')
+
+const WebpackBundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
+
+const smp = new SpeedMeasureWebpackPlugin()
 
 const glob = require('glob')
 const setMPA = () => {
@@ -45,7 +50,7 @@ const setMPA = () => {
  */
 const { entry, htmlWebpackPlugins } = setMPA()
 
-module.exports = {
+module.exports = smp.wrap({
     /*entry: {
         index: './src/index.js',
         search: './src/search.js',
@@ -58,13 +63,22 @@ module.exports = {
         //filename: 'bundle.js'
     },
 
-    mode: "none",//hotmodulereplacement插件开发环境才使用  production环境中默认开启treeshaking
+    mode: "production",//hotmodulereplacement插件开发环境才使用  production环境中默认开启treeshaking
     module: {
         rules: [
             {
                 test: /\.js$/,
                 //use: "babel-loader" //这种写法导致了反复npm run build的时候会报错
-                loader: 'babel-loader', query: { compact: false }
+                use: [
+                    {
+                        loader: 'thread-loader',
+                        options: { workers: 3 },
+                    },
+                    {
+                        loader: 'babel-loader',
+                        query: { compact: false }
+                    }
+                ]
                 //use:["babel-loader",'eslint-loader']
             },
             {
@@ -137,6 +151,7 @@ module.exports = {
             assetNameRegExp: /\.css$/,
             cssProcessor: require('cssnano')
         }),
+        new WebpackBundleAnalyzerPlugin(),
         //new uglifyjsPlugin({ sourceMap: true }),
 
         //一个页面用一个htmlwebpackplugin， 对于SPA一个就够了，多页面的化就多几个配置
@@ -197,4 +212,4 @@ module.exports = {
     },
     stats: 'errors-only',
     devtool: 'source-map'
-}
+})
