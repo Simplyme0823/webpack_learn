@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/search/test.js"],"names":[],"mappings":"0FAAA,2BAGe,4BAAI","file":"12670382d7d9f22f57.js","sourcesContent":["'use strict'\r\nimport React from 'react'\r\n\r\nexport default ()=><div>lazyload</div>"],"sourceRoot":""}

@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{24:function(n,e,a){"use strict";a.r(e);var t=a(0),o=a.n(t);e.default=function(){return o.a.createElement("div",null,"lazyload")}}}]);
-//# sourceMappingURL=10e242c0f775ee2cf1.js.map

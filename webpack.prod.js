@@ -10,10 +10,14 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin')
 const webpack = require('webpack')
 const SpeedMeasureWebpackPlugin = require('speed-measure-webpack-plugin')
-
+const TerserWebpackPlugin = require('terser-webpack-plugin')
 const WebpackBundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
-
+const HardSourceWebpackPlugin = require('hard-source-webpack-plugin')
 const smp = new SpeedMeasureWebpackPlugin()
+const PurgecssWebpackPlugin = require('purgecss-webpack-plugin')
+const PATHS = {
+    src:path.join(__dirname, 'src')
+} 
 
 const glob = require('glob')
 const setMPA = () => {
@@ -75,7 +79,7 @@ module.exports = smp.wrap({
                         options: { workers: 3 },
                     },
                     {
-                        loader: 'babel-loader',
+                        loader: 'babel-loader?cacheDirectory=true',
                         query: { compact: false }
                     }
                 ]
@@ -180,7 +184,20 @@ module.exports = smp.wrap({
                     process.exit(1)
                 }
             })
-        }
+        },
+        new webpack.DllReferencePlugin({
+            manifest:require('./build/library/library.json')
+        }),
+        new TerserWebpackPlugin({
+            parallel:true,
+            cache:true
+        }),
+        new HardSourceWebpackPlugin(),
+        new PurgecssWebpackPlugin({
+            //多页面配置的时候？？
+            //动态加载class的时候？？
+            paths:glob.sync(`${PATHS.src}/**/*`,{nodir:true})
+        })
         //引入外部资源
         /*new htmlWebpackExternalsPlugin({
            externals: [
@@ -197,7 +214,7 @@ module.exports = smp.wrap({
        }) */
         //new webpack.optimize.ModuleConcatenationPlugin()
     ],
-    optimization: {
+    /*optimization: {
         splitChunks: {
             minSize: 1000,//文件大小
             cacheGroups: {
@@ -209,6 +226,14 @@ module.exports = smp.wrap({
                 }
             }
         }
+    },*/
+    resolve:{
+        alias:{
+            'react':path.resolve(__dirname,'./node_modules/react/umd/react.production.min.js'),
+            'react-dom':path.resolve(__dirname, './node_modules/react-dom/umd/react-dom.production.min.js')
+        },
+        extensions:['.js'],
+        mainFields:['main']
     },
     stats: 'errors-only',
     devtool: 'source-map'
